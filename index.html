@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Duo Brew - Restaurant Profile</title>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+      font-family: monospace, fantasy, cursive;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .header {
+      background: linear-gradient(90deg, #ff416c, #ff4b2b);
+      color: white;
+      padding: 40px 20px;
+      border-radius: 15px 15px 0 0;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .header h1 {
+      font-size: 2.7rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .header p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .menu-card {
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+      background: white;
+      padding: 20px;
+    }
+    .menu-card h5 {
+      font-weight: bold;
+      color: #ff416c;
+    }
+    .table thead {
+      background: #ffe0e6;
+      color: #ff416c;
+    }
+    .table tbody tr:hover {
+      background: #fff0f3;
+    }
+    .footer-card {
+      margin-top: 20px;
+      border-radius: 15px;
+      background: linear-gradient(90deg, #ff9a9e, #ff6a88, #ff99ac);
+      color: white;
+      box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
+      padding: 15px;
+      text-align: center;
+    }
+    .badge-custom {
+      background: #fff;
+      color: #ff416c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-4">
+
+    <div class="header">
+      <h1>🍴 Duo Brew</h1>
+      <p>Owner: Ebtisam Al Hazmi</p>
+      <p>Since 2019</p>
+    </div>
+
+
+    <div class="menu-card">
+      <h5 class="mb-3">Menu Pricelist</h5>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th class="text-end">Price (₱)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Spaghetti Carbonara</td>
+            <td class="text-end">₱79.99</td>
+          </tr>
+          <tr>
+            <td>Garlic Bread</td>
+            <td class="text-end">₱50.00</td>
+          </tr>
+          <tr>
+            <td>Caesar Salad</td>
+            <td class="text-end">₱150.00</td>
+          </tr>
+          <tr>
+            <td>Iced Tea</td>
+            <td class="text-end">₱30.00</td>
+          </tr>
+          <tr>
+            <td>Sparkling Water</td>
+            <td class="text-end">₱20.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  
+    <div class="footer-card">
+      <p>🕒 Open: 11:00 AM - 10:00 PM</p>
+      <span class="badge badge-custom">Dine-in Available</span>
+    </div>
+  </div>
+
+</body>
+</html>
